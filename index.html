@@ -5,6 +5,8 @@
 <head>
     <title>Chiranjeevi - Front End Engineer</title>
     <link href="./assets/style.css" rel="stylesheet">
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="./assets/CircularLoader.js"></script>
 </head>
 
 <body>
@@ -83,48 +85,93 @@
                 <img src="./assets/skill-icon.png" width="40px" alt="skill icon">
             </div>
 
+			
+
+
+			
+			
             <div class="content">
                 <div>
                     <div class="dual-col">
                         <h2>HTML</h2>
-                        <div class="w3-progress-container">
-                            <div class="w3-progressbar" style="width:80%"></div>
-                        </div>
+                        <div id="divProgress1">
+
+							<script>
+								$("#divProgress1").circularloader({
+								progressPercent: 75 
+								
+								});
+								
+							</script>
+							
+							
+
+						</div>
                     </div>
 
                     <div class="dual-col">
                         <h2>CSS</h2>
-                        <div class="w3-progress-container">
-                            <div class="w3-progressbar" style="width:90%"></div>
-                        </div>
+                         <div id="divProgress2">
+
+							<script>
+								$("#divProgress2").circularloader({
+								progressPercent: 75 
+								});
+							</script>
+
+						</div>
                     </div>
 
                     <div class="dual-col">
                         <h2>Javascript</h2>
-                        <div class="w3-progress-container">
-                            <div class="w3-progressbar" style="width:70%"></div>
-                        </div>
+                         <div id="divProgress3">
+
+							<script>
+								$("#divProgress3").circularloader({
+								progressPercent: 65 
+								});
+							</script>
+
+						</div>
                     </div>
 
                     <div class="dual-col">
                         <h2>Angular JS</h2>
-                        <div class="w3-progress-container">
-                            <div class="w3-progressbar" style="width:0%"></div>
-                        </div>
+                         <div id="divProgress4">
+
+							<script>
+								$("#divProgress4").circularloader({
+								progressPercent: 0 
+								});
+							</script>
+
+						</div>
                     </div>
 
                     <div class="dual-col">
                         <h2>JQUERY</h2>
-                        <div class="w3-progress-container">
-                            <div class="w3-progressbar" style="width:70%"></div>
-                        </div>
+                        <div id="divProgress5">
+
+							<script>
+								$("#divProgress5").circularloader({
+								progressPercent: 75 
+								});
+							</script>
+
+						</div>
                     </div>
 
                     <div class="dual-col">
                         <h2>PHOTOSHOP</h2>
-                        <div class="w3-progress-container">
-                            <div class="w3-progressbar" style="width:0%"></div>
-                        </div>
+                        <div id="divProgress6">
+
+							<script>
+								$("#divProgress6").circularloader({
+								progressPercent: 0 
+								});
+							</script>
+
+						</div>
                     </div>
 
 
